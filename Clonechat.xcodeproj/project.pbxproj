@@ -17,6 +17,7 @@
 		9CEFE9001EECAA04000A33E4 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFE8FF1EECAA04000A33E4 /* MessagesViewController.swift */; };
 		9CEFE9021EECB1FF000A33E4 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFE9011EECB1FF000A33E4 /* SendViewController.swift */; };
 		9CEFE9041EECB76A000A33E4 /* RecipientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFE9031EECB76A000A33E4 /* RecipientsViewController.swift */; };
+		9CEFE9061EECCA1C000A33E4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFE9051EECCA1C000A33E4 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		9CEFE8FF1EECAA04000A33E4 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		9CEFE9011EECB1FF000A33E4 /* SendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
 		9CEFE9031EECB76A000A33E4 /* RecipientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipientsViewController.swift; sourceTree = "<group>"; };
+		9CEFE9051EECCA1C000A33E4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DA723FDD6BB77087438FF1A3 /* Pods_Clonechat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clonechat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,18 +79,35 @@
 		9CEFE8EA1EEB50E1000A33E4 /* Clonechat */ = {
 			isa = PBXGroup;
 			children = (
-				9CEFE8EB1EEB50E1000A33E4 /* AppDelegate.swift */,
-				9CEFE8ED1EEB50E1000A33E4 /* LoginViewController.swift */,
-				9CEFE8FF1EECAA04000A33E4 /* MessagesViewController.swift */,
-				9CEFE9011EECB1FF000A33E4 /* SendViewController.swift */,
-				9CEFE9031EECB76A000A33E4 /* RecipientsViewController.swift */,
+				9CEFE9071EECCA3D000A33E4 /* ViewControllers */,
+				9CEFE9081EECCA55000A33E4 /* Models */,
 				9CEFE8EF1EEB50E1000A33E4 /* Main.storyboard */,
+				9CEFE8EB1EEB50E1000A33E4 /* AppDelegate.swift */,
 				9CEFE8F21EEB50E1000A33E4 /* Assets.xcassets */,
 				9CEFE8F41EEB50E1000A33E4 /* LaunchScreen.storyboard */,
 				9CEFE8F71EEB50E1000A33E4 /* Info.plist */,
 				9CEFE8FD1EEB5770000A33E4 /* GoogleService-Info.plist */,
 			);
 			path = Clonechat;
+			sourceTree = "<group>";
+		};
+		9CEFE9071EECCA3D000A33E4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CEFE8ED1EEB50E1000A33E4 /* LoginViewController.swift */,
+				9CEFE8FF1EECAA04000A33E4 /* MessagesViewController.swift */,
+				9CEFE9011EECB1FF000A33E4 /* SendViewController.swift */,
+				9CEFE9031EECB76A000A33E4 /* RecipientsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9CEFE9081EECCA55000A33E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9CEFE9051EECCA1C000A33E4 /* User.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		CBB38F9BCEAD4864AE6F43E5 /* Pods */ = {
@@ -227,6 +246,7 @@
 			files = (
 				9CEFE9021EECB1FF000A33E4 /* SendViewController.swift in Sources */,
 				9CEFE9001EECAA04000A33E4 /* MessagesViewController.swift in Sources */,
+				9CEFE9061EECCA1C000A33E4 /* User.swift in Sources */,
 				9CEFE9041EECB76A000A33E4 /* RecipientsViewController.swift in Sources */,
 				9CEFE8EE1EEB50E1000A33E4 /* LoginViewController.swift in Sources */,
 				9CEFE8EC1EEB50E1000A33E4 /* AppDelegate.swift in Sources */,

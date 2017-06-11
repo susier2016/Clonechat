@@ -50,14 +50,15 @@ class SendViewController: UIViewController, UIImagePickerControllerDelegate, UIN
                 print("We had an error:\(String(describing: error))")
             } else {
                 print(metadata?.downloadURL() as Any)
-                self.performSegue(withIdentifier: "recipientSegue", sender: nil)
+                self.performSegue(withIdentifier: "recipientSegue", sender: metadata?.downloadURL()!.absoluteString)
             }
         }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        
+        let nextVC = segue.destination as! RecipientsViewController
+        nextVC.imageURL = sender as! String
+        nextVC.desc = captionTextField.text!
     }
 
 }
