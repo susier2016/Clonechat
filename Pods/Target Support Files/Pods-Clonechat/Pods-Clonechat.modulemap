@@ -1,0 +1,6 @@
+framework module Pods_Clonechat {
+  umbrella header "Pods-Clonechat-umbrella.h"
+
+  export *
+  module * { export * }
+}
