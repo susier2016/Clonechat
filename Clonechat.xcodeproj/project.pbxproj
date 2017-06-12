@@ -18,6 +18,8 @@
 		9CEFE9021EECB1FF000A33E4 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFE9011EECB1FF000A33E4 /* SendViewController.swift */; };
 		9CEFE9041EECB76A000A33E4 /* RecipientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFE9031EECB76A000A33E4 /* RecipientsViewController.swift */; };
 		9CEFE9061EECCA1C000A33E4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFE9051EECCA1C000A33E4 /* User.swift */; };
+		9CEFE90A1EEDB517000A33E4 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFE9091EEDB517000A33E4 /* Message.swift */; };
+		9CEFE90C1EEDB948000A33E4 /* ViewMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEFE90B1EEDB948000A33E4 /* ViewMessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		9CEFE9011EECB1FF000A33E4 /* SendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
 		9CEFE9031EECB76A000A33E4 /* RecipientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipientsViewController.swift; sourceTree = "<group>"; };
 		9CEFE9051EECCA1C000A33E4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9CEFE9091EEDB517000A33E4 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		9CEFE90B1EEDB948000A33E4 /* ViewMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMessageViewController.swift; sourceTree = "<group>"; };
 		DA723FDD6BB77087438FF1A3 /* Pods_Clonechat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clonechat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -96,6 +100,7 @@
 			children = (
 				9CEFE8ED1EEB50E1000A33E4 /* LoginViewController.swift */,
 				9CEFE8FF1EECAA04000A33E4 /* MessagesViewController.swift */,
+				9CEFE90B1EEDB948000A33E4 /* ViewMessageViewController.swift */,
 				9CEFE9011EECB1FF000A33E4 /* SendViewController.swift */,
 				9CEFE9031EECB76A000A33E4 /* RecipientsViewController.swift */,
 			);
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				9CEFE9051EECCA1C000A33E4 /* User.swift */,
+				9CEFE9091EEDB517000A33E4 /* Message.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -245,11 +251,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CEFE9021EECB1FF000A33E4 /* SendViewController.swift in Sources */,
+				9CEFE90C1EEDB948000A33E4 /* ViewMessageViewController.swift in Sources */,
 				9CEFE9001EECAA04000A33E4 /* MessagesViewController.swift in Sources */,
 				9CEFE9061EECCA1C000A33E4 /* User.swift in Sources */,
 				9CEFE9041EECB76A000A33E4 /* RecipientsViewController.swift in Sources */,
 				9CEFE8EE1EEB50E1000A33E4 /* LoginViewController.swift in Sources */,
 				9CEFE8EC1EEB50E1000A33E4 /* AppDelegate.swift in Sources */,
+				9CEFE90A1EEDB517000A33E4 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -55,6 +55,8 @@ class RecipientsViewController: UIViewController, UITableViewDataSource, UITable
         let message = ["from":user.email, "description":desc, "imageURL":imageURL]
         
         Database.database().reference().child("users").child(user.uid).child("messages").childByAutoId().setValue(message)
+        
+        navigationController!.popToRootViewController(animated: true)
     }
     
 }
